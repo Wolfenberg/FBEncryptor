@@ -25,9 +25,9 @@
 
 //
 // Mapping from 6 bit pattern to ASCII character.
+// URL safe.
 //
-static unsigned char base64EncodeLookup[65] =
-	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
+static unsigned char base64EncodeLookup[65] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
 
 //
 // Definition for "masked-out" areas of the base64DecodeLookup mapping
